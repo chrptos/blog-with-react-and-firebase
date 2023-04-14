@@ -1,6 +1,6 @@
 import React from 'react'
-import { signInWithPopup, signOut } from "firebase/auth";
-import { auth, provider } from "../firebase.js";
+import { signOut } from "firebase/auth";
+import { auth } from "../firebase.js";
 import { useNavigate } from 'react-router-dom';
 
 const Logout = ({ setIsAuth }) => {
